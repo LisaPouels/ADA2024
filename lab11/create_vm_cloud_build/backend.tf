@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "adatemp"
+    bucket = "adatemp-lp"
     prefix = "env/dev"
   }
 }
